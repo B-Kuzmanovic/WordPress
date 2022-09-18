@@ -1,0 +1,292 @@
+/*
+Theme Name: Divi Child
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Template: Divi
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
+Version: 4.18.0.1663001047
+Updated: 2022-09-12 16:44:07
+*/
+
+/*HEADER*/
+header {
+	height: 80px;
+}
+header .et_pb_section {
+	width: calc(100% + 3px) !important;
+}
+header .et_pb_row_0_tb_header {
+	height: 40px !important;	
+}
+header .et_pb_column_0_tb_header, header .et_pb_column_3_tb_header {
+	width: 100px !important;
+}
+header .et_pb_column_1_tb_header, header .et_pb_column_4_tb_header {
+	height: 40px !important;
+	width: calc((100% - 100px) / 3 * 2) !important;
+}
+header .et_pb_column_2_tb_header, header .et_pb_column_5_tb_header {
+	height: 40px !important;
+	width: calc((100% - 100px) / 3) !important;
+}
+.et_pb_searchsubmit {
+	padding: 0.715em 0 !important;
+}
+.et_pb_searchform div:before {
+	content: "\55";
+	display: block;
+	font-family: 'ETModules';
+	font-size: 16px;
+	font-weight: bold;
+	pointer-events: none;
+	position: absolute;
+	right: 8px;
+	top: 3px;
+	z-index: 1;
+}
+#menu-secondary .menu-item-179 {
+	display: none !important;
+}
+.lwp-hide-mobile-menu.et_pb_menu .et_pb_menu__menu, .lwp-hide-mobile-menu.et_pb_fullwidth_menu .et_pb_menu__menu {
+	display: flex !important;
+}
+.lwp-hide-mobile-menu .et_mobile_nav_menu {
+	display: none;
+}
+@media only screen and (max-width: 767px) {
+header .et_pb_column_4_tb_header .et_mobile_nav_menu {
+	margin-left: -8px !important;
+}
+header .et_pb_column_5_tb_header .et_mobile_menu {
+	text-align: right;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.lwp-hide-tablet-menu.et_pb_menu .et_pb_menu__menu, .lwp-hide-tablet-menu.et_pb_fullwidth_menu .et_pb_menu__menu {
+	display: flex !important;
+}
+.lwp-hide-tablet-menu .et_mobile_nav_menu {
+	display: none;
+}
+}
+@media only screen and (max-width: 1024px) {
+header .et_pb_column_4_tb_header, header .et_pb_column_5_tb_header {
+	left: 100px;
+}
+header .et_pb_column_4_tb_header {
+	width: calc((100% - 100px) * 0.55) !important;
+}
+header .et_pb_column_5_tb_header {
+	width: calc((100% - 100px) * 0.45) !important;
+}
+header .et_pb_column_0_tb_header .et_pb_module a {
+	padding-left: 10px;
+}
+header .et_pb_column_4_tb_header .et_pb_menu__wrap {
+	justify-content: left !important;
+}
+header .et_pb_column_5_tb_header .et_pb_menu__menu {
+	padding-right: 10px;
+}
+}
+
+/*FOOTER*/
+footer .et_pb_contact_field {
+	width: 70% !important;
+}
+
+/*BLOG*/
+.et_pb_blog_0 .et_pb_ajax_pagination_container {
+	display: grid;
+	gap: 3%;
+	grid-template-columns: repeat(auto-fill, minmax(22.75%, 1fr));
+}
+.et_pb_blog_0 .et_pb_post > a {
+	height: calc(100% - 52px);
+}
+.et_pb_blog_0 .et_pb_post > a > img {
+	height: 100%;
+	object-fit: contain;
+}
+@media only screen and (max-width: 767px) {
+.et_pb_blog_0 .et_pb_ajax_pagination_container {
+	gap: 0%;
+	grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.et_pb_blog_0 .et_pb_ajax_pagination_container {
+	gap: 3%;
+	grid-template-columns: repeat(auto-fill, minmax(48.5%, 1fr));
+}
+}
+
+/*PRODUCT CATEGORIES*/
+.page-id-136 .et_pb_row_4col img {
+	height: 300px;
+	object-fit: contain;
+}
+@media only screen and (max-width: 767px) {
+.page-id-136 .et_pb_row_4col img {
+	height: 200px;
+}
+}
+@media only screen and (max-width: 1024px) {
+.page-id-136 .et_pb_module {
+	text-align: center;
+}
+}
+
+/*BEST SELLERS*/
+.woocommerce.columns-6 img {
+	height: 300px !important;
+	object-fit: contain;
+}
+
+/*CONTACT*/
+.page-id-193 #et_pb_contact_form_0 .et_contact_bottom_container {
+	margin-top: 0;
+}
+
+/*SHOP*/
+.woof .irs-bar, .woof .irs-from, .woof .irs-to {
+	background-color: #2e51a2 !important;
+}
+.woof .irs-from:before, .woof .irs-to:before {
+	border-top-color: #2e51a2 !important;
+}
+.woof .irs-handle {
+	border-color: #2e51a2 !important;
+}
+.woof button {
+	background-color: #2e51a2 !important;
+	border: none !important;
+	border-radius: 4px !important;
+	color: white !important;
+	font-size: 14px !important;
+	font-weight: 600 !important;
+	padding-right: 14px !important;
+}
+.woof button:after {
+	display: none;
+}
+
+/*CART*/
+.woocommerce-cart .et_pb_column_0_tb_body {
+	width: 69.5%;
+}
+.woocommerce-cart .et_pb_column_1_tb_body {
+	width: 25%;
+}
+#coupon_code {
+	padding: 3px 5px;
+}
+/*Empty Cart*/
+.empty-cart h2 {
+	color: #2e51a2;
+	font-weight: 900;
+	line-height: 2em;
+	text-transform: uppercase;
+}
+.empty-cart p {
+	line-height: 2em;
+	margin: auto;
+	max-width: 600px;
+}
+.empty-cart {
+	padding-bottom: 5vw;
+	text-align: center;
+}
+.container p.return-to-shop {
+	padding-bottom: 80px;
+	text-align: center;
+}
+.empty-cart-icon {
+	border: 2px solid #2e51a2;
+	border-radius: 50%;
+	color: #2e51a2;
+	display: inline-block;
+	font-family: ETmodules;
+	font-size: 40px;
+	line-height: initial;
+	margin-bottom: 20px;
+	padding: 30px;
+}
+.return-to-shop {
+	text-align: center;
+}
+
+/*CHECKOUT*/
+.woocommerce-checkout .selection > span {
+	min-height: 30px !important;
+}
+
+/*PRODUCT*/
+/*Breadcrumbs*/
+.et_pb_wc_breadcrumb a {
+	color: #2e51a2 !important;
+}
+/*Icons*/
+.et_pb_text img, .et_pb_tab_content img {
+	height: 1.4em;
+	margin-bottom: -0.35em;
+}
+/*Tabs*/
+.et_pb_tabs_controls > li {
+	border: none !important;
+	text-align: center;
+}
+.et_pb_tabs_controls:after {
+	display: none !important;
+}
+.et_pb_tab_content h2 {
+	display: none;
+}
+.woocommerce-product-attributes, .woocommerce-product-attributes th, .woocommerce-product-attributes td {
+	border: none !important;
+}
+.woocommerce-product-attributes tr:nth-of-type(2n) {
+	background: rgba(46, 81, 162, 0.1);
+}
+/*Variations*/
+.variations > tbody:nth-child(1) > tr:nth-child(n) > td:nth-child(2) {
+	padding-bottom: 10px !important;
+}
+.variations select {
+	padding-right: 30px !important;	
+}
+.variations option:not(.attached) {
+	display: none;
+}
+.reset_variations {
+	display: none !important;
+}
+.woocommerce-variation-price {
+	font-size: 120%;
+	margin-bottom: 15px;
+}
+.quantity input {
+	padding: 3px 10px !important;
+}
+/*Related Products*/
+.related.products img {
+	height: 250px !important;
+	object-fit: contain;
+}
+
+/*BACK TO TOP*/
+.et_pb_scroll_top {
+	background: white !important;
+	border: solid 2px #2e51a2;
+	border-radius: 50% !important;
+	bottom: 20px !important;
+	color: #2e51a2 !important;
+	right: 20px !important;
+	transition: all 0.125s ease-in-out;
+}
+.et_pb_scroll_top:hover {
+	background: #2e51a2 !important;
+	border-color: white;
+	color: white !important;
+}

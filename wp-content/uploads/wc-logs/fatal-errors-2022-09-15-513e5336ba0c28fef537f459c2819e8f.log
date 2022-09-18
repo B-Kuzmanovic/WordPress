@@ -1,0 +1,93 @@
+2022-09-15T16:18:25+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi-child/functions.php:43
+Stack trace:
+#0 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(307): move_short_desc_for_varition('')
+#1 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/bkuzmanovic/public_html/projekat/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/bkuzmanovic/public_html/projekat/wp-includes/general-template.php(3042): do_action('wp_head')
+#4 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/frontend-builder/theme-builder/frontend-header-template.php(11): wp_head()
+#5 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/frontend-builder/theme-builder/frontend.php(216): require_once('/home/bkuzmanov...')
+#6 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/frontend-builder/theme-builder/frontend.php(247): et_theme_builder_frontend_override_partial('header', '', 'wp_head')
+#7 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(309): et_theme_builder_frontend_override_header(NULL)
+#8 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 /home/bkuzmanovic/public_html/projekat/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#10 /home/bkuzmanovic/public_html/projekat/wp-includes/general-template.php(38): do_action('get_header', NULL, Array)
+#11 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/page.php(3): get_header()
+#12 /home/bkuzmanovic/public_html/projekat/wp-includes/template-loader.php(106): include('/home/bkuzmanov...')
+#13 /home/bkuzmanovic/public_html/projekat/wp-blog-header.php(19): require_once('/home/bkuzmanov...')
+#14 /home/bkuzmanovic/public_html/projekat/index.php(17): require('/home/bkuzmanov...')
+#15 {main}
+  thrown in /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi-child/functions.php on line 43
+
+2022-09-15T16:39:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_product_terms(), 0 passed in /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi-child/functions.php on line 39 and at least 2 expected in /home/bkuzmanovic/public_html/projekat/wp-content/plugins/woocommerce/includes/wc-term-functions.php:176
+Stack trace:
+#0 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi-child/functions.php(39): wc_get_product_terms()
+#1 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(307): funkcija('')
+#2 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/bkuzmanovic/public_html/projekat/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/plugin-compat/woocommerce.php(349): do_action('woocommerce_bef...')
+#5 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(309): ET_Builder_Plugin_Compat_WooCommerce->maybe_trigger_woo_hooks_in_theme_builder_body('et_body_layout')
+#6 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 /home/bkuzmanovic/public_html/projekat/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/frontend-builder/theme-builder/frontend.php(330): do_action('et_theme_builde...', 'et_body_layout', 49)
+#9 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/frontend-builder/theme-builder/frontend.php(506): et_theme_builder_frontend_render_layout('et_body_layout', 49)
+#10 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/frontend-builder/theme-builder/frontend-body-template.php(10): et_theme_builder_frontend_render_body(49, true, 59)
+#11 /home/bkuzmanovic/public_html/projekat/wp-includes/template-loader.php(106): include('/home/bkuzmanov...')
+#12 /home/bkuzmanovic/public_html/projekat/wp-blog-header.php(19): require_once('/home/bkuzmanov...')
+#13 /home/bkuzmanovic/public_html/projekat/index.php(17): require('/home/bkuzmanov...')
+#14 {main}
+  thrown in /home/bkuzmanovic/public_html/projekat/wp-content/plugins/woocommerce/includes/wc-term-functions.php on line 176
+
+2022-09-15T16:43:42+00:00 CRITICAL Uncaught Error: Call to a member function get_attributes() on null in /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi-child/functions.php:39
+Stack trace:
+#0 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(307): funkcija('')
+#1 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/bkuzmanovic/public_html/projekat/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/plugin-compat/woocommerce.php(352): do_action('woocommerce_bef...')
+#4 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(309): ET_Builder_Plugin_Compat_WooCommerce->maybe_trigger_woo_hooks_in_theme_builder_body('et_body_layout')
+#5 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 /home/bkuzmanovic/public_html/projekat/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#7 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/frontend-builder/theme-builder/frontend.php(330): do_action('et_theme_builde...', 'et_body_layout', 49)
+#8 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/frontend-builder/theme-builder/frontend.php(506): et_theme_builder_frontend_render_layout('et_body_layout', 49)
+#9 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/frontend-builder/theme-builder/frontend-body-template.php(10): et_theme_builder_frontend_render_body(49, true, 59)
+#10 /home/bkuzmanovic/public_html/projekat/wp-includes/template-loader.php(106): include('/home/bkuzmanov...')
+#11 /home/bkuzmanovic/public_html/projekat/wp-blog-header.php(19): require_once('/home/bkuzmanov...')
+#12 /home/bkuzmanovic/public_html/projekat/index.php(17): require('/home/bkuzmanov...')
+#13 {main}
+  thrown in /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi-child/functions.php on line 39
+
+2022-09-15T16:44:07+00:00 CRITICAL Uncaught Error: Call to a member function get_attributes() on null in /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi-child/functions.php:39
+Stack trace:
+#0 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(307): funkcija('')
+#1 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/bkuzmanovic/public_html/projekat/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/plugin-compat/woocommerce.php(352): do_action('woocommerce_bef...')
+#4 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(309): ET_Builder_Plugin_Compat_WooCommerce->maybe_trigger_woo_hooks_in_theme_builder_body('et_body_layout')
+#5 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 /home/bkuzmanovic/public_html/projekat/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#7 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/frontend-builder/theme-builder/frontend.php(330): do_action('et_theme_builde...', 'et_body_layout', 49)
+#8 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/frontend-builder/theme-builder/frontend.php(506): et_theme_builder_frontend_render_layout('et_body_layout', 49)
+#9 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/frontend-builder/theme-builder/frontend-body-template.php(10): et_theme_builder_frontend_render_body(49, true, 59)
+#10 /home/bkuzmanovic/public_html/projekat/wp-includes/template-loader.php(106): include('/home/bkuzmanov...')
+#11 /home/bkuzmanovic/public_html/projekat/wp-blog-header.php(19): require_once('/home/bkuzmanov...')
+#12 /home/bkuzmanovic/public_html/projekat/index.php(17): require('/home/bkuzmanov...')
+#13 {main}
+  thrown in /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi-child/functions.php on line 39
+
+2022-09-15T16:44:08+00:00 CRITICAL Uncaught Error: Call to a member function get_attributes() on null in /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi-child/functions.php:39
+Stack trace:
+#0 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(307): funkcija('')
+#1 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/bkuzmanovic/public_html/projekat/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/plugin-compat/woocommerce.php(352): do_action('woocommerce_bef...')
+#4 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(309): ET_Builder_Plugin_Compat_WooCommerce->maybe_trigger_woo_hooks_in_theme_builder_body('et_body_layout')
+#5 /home/bkuzmanovic/public_html/projekat/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 /home/bkuzmanovic/public_html/projekat/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#7 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/frontend-builder/theme-builder/frontend.php(330): do_action('et_theme_builde...', 'et_body_layout', 49)
+#8 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/frontend-builder/theme-builder/frontend.php(506): et_theme_builder_frontend_render_layout('et_body_layout', 49)
+#9 /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi/includes/builder/frontend-builder/theme-builder/frontend-body-template.php(10): et_theme_builder_frontend_render_body(49, true, 59)
+#10 /home/bkuzmanovic/public_html/projekat/wp-includes/template-loader.php(106): include('/home/bkuzmanov...')
+#11 /home/bkuzmanovic/public_html/projekat/wp-blog-header.php(19): require_once('/home/bkuzmanov...')
+#12 /home/bkuzmanovic/public_html/projekat/index.php(17): require('/home/bkuzmanov...')
+#13 {main}
+  thrown in /home/bkuzmanovic/public_html/projekat/wp-content/themes/Divi-child/functions.php on line 39
+
